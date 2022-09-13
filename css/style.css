@@ -1,0 +1,262 @@
+/* common css starts here */
+
+   *{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+.row{
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.align-center{
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button{
+    width: 196px;
+        height: 48px;
+        background-color: #cfc91d;
+        display: block;
+        margin: auto;
+        font-size: 14px;
+        font-weight: 800;
+        color: #0b1016;
+        text-transform: uppercase;
+        line-height: 48px;
+        text-align: center;
+}
+.heading{
+    margin: 50px 0;
+    font-size: 46px;
+    font-family:open Sans;
+    font-weight: 800;
+    color:#02918b;
+    text-transform:uppercase;
+    text-align:center;
+    position: relative;
+}
+
+.heading ::after{
+    content: "";
+    width: 162px;
+    height: 9px;
+    background-image:url(../img/-MYFOLIO\ \(heading\ img\).png);
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* common css ends here */
+
+
+/* nav starts here */
+nav{
+    background-color: #02918b;
+}
+
+nav .logo{
+    width: 30%;
+
+}
+nav .menu{
+    width: 70%;
+}
+
+nav .menu ul{
+    text-align: right;
+}
+nav .menu ul li{
+    display: inline-block;
+}
+nav .menu ul li a{
+    font-weight: 800;
+    color: white;
+    text-transform: uppercase;
+    padding: 26px 25px;
+    display: block;
+
+}
+/* nav ends here */
+
+/* banner starts here */
+#banner{
+    height:730px ;
+    background-image:url(../img/banner.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0,0.34);
+    background-blend-mode: multiply;
+}
+
+#banner .bannercnt{
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+#banner .bannercnt h3{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#banner .bannercnt h1{
+    font-size:68px ;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}
+
+#banner .bannercnt p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#banner .bannercnt img{
+    margin: 50px 0;
+}
+
+#banner .row{
+    height: 730px;
+}
+#about{
+    padding: 98px 0;
+}
+#about .container p{
+    font-family: open Sans;
+    font-weight: 400;
+    font-size: 16px;
+    color: #7e8287;
+    text-align: center;
+}
+
+ #about .aboutcard h5{
+    padding: 32px 0;
+    color:#7e8287;
+ }
+#about .aboutcard span{
+    color: #02918b;
+}
+#about .aboutcard{
+    width:25%;
+    border-right: 1px solid #ccc;
+    text-align: center;
+    margin: 100px 0;
+}
+
+#about .aboutcard:last-child{
+    border: none;
+}
+
+/* about section ends here */
+/* services section starts here */
+#service{
+    background-image: url(../img/MYFOLIO\ servicebg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 73px 0;
+}
+
+.serviceleft{
+    width: 50%;
+}
+
+#service .heading{
+    text-align: left;
+}
+#service .heading::after{
+    left: 0;
+    transform: translateX(0%);
+}
+
+.servicecard{
+    width: 50%;
+    margin: 40px 0;
+}
+.servicecard span{
+    color: #02918b;
+}
+.servicecardp{
+    padding: 0;
+    padding-right: 80px;
+}
+
+.servicetaxt{
+    margin: 40px 0;
+}
+
+.servicecard .subheading{
+    color: #7e8287;
+}
+.servicecard .cardcontent{
+    color: #7e8287;
+}
+/* services section ends here */
+
+/* WORK STARTS HERE */
+#work p{
+    text-align: center;
+    padding: 80px 0;
+}
+#work {
+    padding: 50px 0;
+  }
+  
+  .workCard {
+    width: 25%;
+  }
+  .workCard img {
+    width: 100%;
+    display: block;
+  }
+  /* WORK STARTS HERE */
+  /* contact starts here */
+.contact p{
+     color: #7e8287;
+     text-align: center;
+     padding: 73px 0;
+}
+  /* contact ends here */
+
+footer div{
+    background-color: #0a0a0b;
+  }
+
+footer div p{
+     text-align: center;
+     padding: 65px 0;
+     color: #7e8287;
+}
+
+footer div .btn{
+        padding: 176px 0 65px 0;
+}
+footer div .btn a{
+    background-color: #cfc91d;
+    color: black;
+}
+
+footer div :last-child{
+    background-color: black;
+    color: #ccc;
+}
